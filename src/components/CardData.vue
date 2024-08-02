@@ -13,6 +13,7 @@ const props = defineProps({
     }
 })
 
+
 // FORMATAR key para UpperCase
 const formatKey = (key: string) => {
     const keyMap: { [key: string]: string } = {
@@ -27,19 +28,20 @@ const formatKey = (key: string) => {
         gia: 'GIA',
         ddd: 'DDD',
         siafi: 'SIAFI'
-    };
-    return keyMap[key] || key.toUpperCase();
+    }
+    return keyMap[key] || key.toUpperCase()
 }
 </script>
 
 <template>
     <a-card title="Endereço" class="card" v-if="!isLoading && address">
-        <div v-if="address.erro">
-            <p><strong>{{ address.erro }}</strong></p>
+        <div v-if="props.address.error">
+            <p><strong>{{ props.address.error }}</strong></p>
         </div>
         <div v-else>
-            <div v-for="(value, key) in address" :key="key">
-                <p><strong>{{ formatKey(key) }}:</strong> {{ value.toUpperCase() }}</p>
+            <div v-for="(value, key) in props.address" :key="key">
+                <p><strong>{{ formatKey(key) }}:</strong> {{ typeof value === 'string' ? value.toUpperCase() : 'N/A' }}
+                </p>
             </div>
         </div>
     </a-card>
