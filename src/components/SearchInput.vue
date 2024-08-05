@@ -11,6 +11,8 @@ const inputValue = ref<string>('')
 const isLoading = ref<boolean>(false)
 const address = ref<Address | null>(null)
 
+const apiUrl = import.meta.env.VITE_API_URL
+
 const handleSearch = async (): Promise<void> => {
     if (inputValue.value.trim() === '') {
         return
@@ -19,9 +21,7 @@ const handleSearch = async (): Promise<void> => {
     isLoading.value = true
 
     try {
-        // const response = await axios.get(`https://viacep.com.br/ws/${inputValue.value}/json/`)
-
-        const response = await axios.get(`http://localhost:8080/api/cep/${inputValue.value}`)
+        const response = await axios.get(`${apiUrl}/${inputValue.value}`)
 
         if (response.data.erro) {
             address.value = { error: 'CEP inválido' } as Address
