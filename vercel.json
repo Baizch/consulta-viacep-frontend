@@ -1,7 +1,9 @@
 {
   "version": 2,
-  "middleware": {
-    "source": "/api/(.*)",
-    "dest": "middleware.js"
-  }
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/proxy.js"
+    }
+  ]
 }
