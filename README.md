@@ -4,8 +4,8 @@ Este é o frontend para o projeto de consulta de CEP. O frontend foi desenvolvid
 
 ## Tecnologias Utilizadas
 
-- [Vue 3](https://vuejs.org/) ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?logo=vuedotjs&logoColor=%234FC08D)
-- [TypeScript](https://www.typescriptlang.org/) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?logo=typescript&logoColor=white)
+- [Vue 3](https://vuejs.org/) ![image](https://img.shields.io/badge/Vue%20js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
+- [TypeScript](https://www.typescriptlang.org/) ![image](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 - [Vite](https://vitejs.dev/) ![image](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
 - [Ant Design Vue](https://www.antdv.com/docs/vue/introduce) ![image](https://img.shields.io/badge/Ant%20Design-1890FF?style=for-the-badge&logo=antdesign&logoColor=white)   
 - [Docker](https://www.docker.com/) ![image](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
