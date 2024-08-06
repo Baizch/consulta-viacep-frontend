@@ -1,9 +1,7 @@
 {
   "version": 2,
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "https://consulta-viacep-back.onrender.com/api/$1"
-    }
-  ]
+  "middleware": {
+    "source": "/api/(.*)",
+    "dest": "middleware.js"
+  }
 }
