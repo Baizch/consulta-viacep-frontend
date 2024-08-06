@@ -1,10 +1,10 @@
 # Projeto Frontend - Consulta CEP
 
-Este é o frontend para o projeto de consulta de CEP. O frontend é desenvolvido utilizando Vue 3, TypeScript, Vite e Ant Design Vue. Este projeto pode ser executado localmente ou em um contêiner Docker.
+Este é o frontend para o projeto de consulta de CEP. O frontend foi desenvolvido utilizando Vue 3, TypeScript, Vite e Ant Design Vue. Este projeto pode ser executado localmente ou em um contêiner Docker.
 
 ## Tecnologias Utilizadas
 
-- [Vue 3](https://vuejs.org/) ![Vue](https://img.shields.io/badge/Vue-3-brightgreen)
+- [Vue 3](https://vuejs.org/) ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?logo=vuedotjs&logoColor=%234FC08D)
 - [TypeScript](https://www.typescriptlang.org/) ![TypeScript](https://img.shields.io/badge/TypeScript-4.5-blue)
 - [Vite](https://vitejs.dev/) ![Vite](https://img.shields.io/badge/Vite-2.7-orange)
 - [Ant Design Vue](https://www.antdv.com/docs/vue/introduce) ![Ant Design Vue](https://img.shields.io/badge/Ant%20Design%20Vue-2.2-red)
