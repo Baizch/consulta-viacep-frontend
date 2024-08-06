@@ -17,5 +17,48 @@ Este é o frontend para o projeto de consulta de CEP. O frontend foi desenvolvid
 2. **Clone este repositório:**
 
    ```bash
-   git clone <URL_DO_REPOSITORIO>
-   cd <DIRETORIO_DO_PROJETO>
+   git clone git@github.com:Baizch/consulta-viacep-frontend.git
+   
+   cd consulta-viacep-frontend
+
+3. **Instale as dependências do projeto:**
+   ```bash
+   npm install
+   
+   ou
+   
+   yarn install
+   ```
+
+4. **Inicie o servidor de desenvolvimento:**
+   ```bash
+   npm run dev
+
+   ou
+
+   yarn run dev
+   ```
+## Rodando com Docker
+
+1. Certifique-se de que o Docker Desktop está instalado e em execução. Você pode baixar e instalar o Docker Desktop a partir do [site oficial](https://www.docker.com/).
+
+2. **Clone este repositório:**
+
+   ```bash
+   git clone git@github.com:Baizch/consulta-viacep-frontend.git
+   cd consulta-viacep-frontend
+
+3. **Crie a imagem Docker:**
+   ```bash
+   docker-compose build
+   ```
+
+4. **Inicie o contêiner Docker:**
+   ```bash
+   docker-compose up
+   ```
+
+   O projeto estará disponível em http://localhost:5173.
+
+
+
