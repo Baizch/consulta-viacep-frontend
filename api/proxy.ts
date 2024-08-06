@@ -5,7 +5,7 @@ export default async function handler(req, res) {
   }
 
   const apiUrl = import.meta.env.VITE_API_URL;
-  const url = `${apiUrl}/api${req.url}`;
+  const url = `${apiUrl}/api/cep/${req.url}`;
 
   try {
     const response = await fetch(url, {
