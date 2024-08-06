@@ -3,7 +3,7 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "/api/proxy.js"
+      "dest": "https://consulta-viacep-back.onrender.com/api/$1"
     }
   ]
 }
