@@ -19,7 +19,7 @@ const handleSearch = async (): Promise<void> => {
     isLoading.value = true
 
     try {
-        const response = await axios.get(`/api/${inputValue.value}`)
+        const response = await axios.get(`/api/cep/${inputValue.value}`)
 
         if (response.data.erro) {
             address.value = { error: 'CEP inválido' } as Address
